@@ -51,7 +51,7 @@ window.onload = function addDiv() {
 </svg>
     Accessibility checked succsessfully!`;
 
-    // CSS-Stile festlegen
+    // CSS-Style festlegen
     newDiv.style.backgroundColor = "white";
     newDiv.style.color = "black";
     newDiv.style.padding = "20px";
