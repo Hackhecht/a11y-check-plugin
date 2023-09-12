@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="my_a11y_page_style.css" />
+</head>
+<body>
+    <h1 class="my_plugin_h1">Accessibility Plugin Admin Page</h1>
+    <button onclick="get_axe();">Show test data</button>
+    <div class="wrapping-container">
+        <div class="test-results">
+            <h2>List of A11Y Check Test Results</h2>
+            <div class="test-result-table-wrapper">
+            <table class="test-result-table">
+                <thead class="test-result-table-head">
+                    <tr>
+                        <th id="test-id">Test Id</th>
+                        <th id="test-issues">Detected Issues</th>
+                        <th id="test-date">Date</th>
+                        <th id="page-name">Page Name</th>
+                        <th id="test-depth">Test Depth</th>
+                    </tr>
+                </thead>
+                <tbody id="test-result-table-body">
+                </tbody>
+            </table>
+            </div>
+            <div class="row-fix-and-inspection">
+                <div class="issue-inspection">
+                    <h2>Issue Details</h2>
+                    <table class="issue-inspection-table">
+                        <thead class="table-head">
+                            <tr>
+                                <th id="issue-name">Issue</th>
+                                <th id="issue-decription">Description</th>
+                                <th id="issue-help">Help</th>
+                            </tr>
+                        </thead>
+                       <tbody id="issue-table-body">
+                      </tbody>
+                    </table>
+                </div>
+                <div class="fix-issue">
+                    <h2>Fix the Issue</h2>
+                    <table class="fix-issue-table">
+                        <thead class="table-head">
+                            <tr>
+                                <th id="issue-node">Concerned Elements</th>
+                                <th id="failure-summary">Fix Advice</th>
+                                <th id="help-url">Help-Page</th>
+                            </tr>
+                        </thead>
+                             <tbody id="nodes-table-body">
+                      </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+
+        </div>
+
+</body>

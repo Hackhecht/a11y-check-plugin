@@ -1,0 +1,26 @@
+{
+  "name": "axe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "axe.js",
+  "scripts": {
+    "test": "axe_test.js",
+    "wp-env": "wp-env",
+    "prepare": "husky install || true",
+    "build": "wp-scripts build && cp packages/wordpress/wp-content/plugins/axe/a11y-check-plugin.php build/",
+    "start": "wp-scripts start"
+  },
+  "dependencies": {
+    "@wordpress/components": "^22.1.0",
+    "@wordpress/edit-post": "^6.19.0",
+    "@wordpress/element": "^4.20.0",
+    "@wordpress/icons": "^9.13.0",
+    "@wordpress/plugins": "^4.20.0",
+    "@wordpress/scripts": "^24.6.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axe-core": "^4.7.2"
+  }
+}
