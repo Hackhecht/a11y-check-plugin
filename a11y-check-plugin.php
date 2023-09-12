@@ -225,7 +225,7 @@ function database_setup()
         id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
         page_url VARCHAR(255) NOT NULL,
         time_stamp VARCHAR(255) NOT NULL,
-        axe_test TEXT NOT NULL)";
+        axe_test MEDIUMTEXT NOT NULL)";
 
         if ($wpdb->query($sql) === TRUE) {
             error_log("Die Tabelle $tableName wurde erfolgreich erstellt.");
