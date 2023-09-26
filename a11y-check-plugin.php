@@ -3,6 +3,8 @@
 
 
 /**
+ * Plugin Name:       A11y-Check-Plugin BA-Abschluss
+ * Description:       This Plugin does an accessibility-check on your WordPress-Sites. It uses 'axe-core' to test the accessibility of your site. Preview your pages; while the Plugin is activated tests will be performed.
  * Plugin Name:       A11Y-Check-Plugin 
  * Description:       This WordPress-Plugin does an accessibility-check on your created Sites. It uses 'axe-core' to test the accessibility of your site. Preview your pages; while the Plugin is activated tests will be performed.
  * Requires at least: 5.7
