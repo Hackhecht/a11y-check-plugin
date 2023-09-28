@@ -1,18 +1,15 @@
 
 <?php
 
-// TODO: Error-Handling überprüfen, nach Error-Log loggen?, Logging-Messages vereinheitlichen
-// TODO: Fehler überprüfen in der Response des Requests 
-
 
 /**
- * Plugin Name:       A11y-Check-Plugin BA-Abschluss
- * Description:       This Wordpress Plugin does an accessibility-check on your WordPress-Sites.
+ * Plugin Name:       A11Y-Check-Plugin 
+ * Description:       This Wordpress Plugin does an accessibility-check on your WordPress-Sites. It uses 'axe-core' to test the accessibility of your site. Preview your pages; while the Plugin is activated tests will be performed.
  * Requires at least: 5.7
  * Requires PHP:      7.0
  * Version:           1.4.5
  * Author:            Eliphas Grökel
- * Author URI:        https://github.com/cm4all-eli
+ * Author URI:        https://github.com/Hackhecht/a11y-check-plugin
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       BA-Accessibility Check
