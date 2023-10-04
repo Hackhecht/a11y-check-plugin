@@ -182,13 +182,13 @@ function get_axe() {
                         ).length;
                     if (numOfSeriousIncompletes > 0) {
                         numOfSeriousIncompletes == 1
-                            ? (testResultText += ` One has <span style="color:#CD001A"> serious </span> impact.`)
-                            : (testResultText += ` ${numOfSeriousIncompletes} of them have <span style="color:#CD001A"> serious </span> impact.`);
+                            ? (testResultText += ` One has <span style="color:#FFFFFF;background-color: #F00000;> serious </span> impact.`)
+                            : (testResultText += ` ${numOfSeriousIncompletes} of them have <span style="color:#FFFFFF;background-color: #F00000;"> serious </span> impact.`);
                     }
                     if (numOfModerateIncompletes > 0) {
                         numOfModerateIncompletes == 1
-                            ? (testResultText += ` One has <span style="color:#E0C35A"> moderate </span> impact.`)
-                            : (testResultText += ` ${numOfModerateIncompletes} of them have <span style="color:#E0C35A"> moderate </span> impact.`);
+                            ? (testResultText += ` One has <span style="color:#FFFFFF;background-color: #B35F00;"> moderate </span> impact.`)
+                            : (testResultText += ` ${numOfModerateIncompletes} of them have <span style="color:#FFFFFF;background-color: #B35F00;"> moderate </span> impact.`);
                     }
                 }
 
@@ -296,13 +296,13 @@ function get_axe() {
                         ).length;
                     if (numOfSeriousViolations > 0) {
                         numOfSeriousViolations == 1
-                            ? (testResultText += ` One has <span style="color:#CD001A"> serious </span>impact.`)
-                            : (testResultText += ` ${numOfSeriousViolations} of them have <span style="color:#CD001A"> serious </span> impact.`);
+                            ? (testResultText += ` One has <span style="color:#FFFFFF;background-color: #F00000;"> serious </span>impact.`)
+                            : (testResultText += ` ${numOfSeriousViolations} of them have <span style="color:#FFFFFF;background-color: #F00000;"> serious </span> impact.`);
                     }
                     if (numOfModerateViolations > 0) {
                         numOfModerateViolations == 1
-                            ? (testResultText += ` One has <span style="color:#E0C35A"> moderate </span> impact.`)
-                            : (testResultText += ` ${numOfModerateViolations} of them have <span style="color:#E0C35A"> moderate </span> impact.`);
+                            ? (testResultText += ` One has <span style="color:#FFFFFF;background-color: #B35F00;"> moderate </span> impact.`)
+                            : (testResultText += ` ${numOfModerateViolations} of them have <span style="color:#FFFFFF;background-color: #B35F00;"> moderate </span> impact.`);
                     }
                 }
 
