@@ -20,8 +20,3 @@ This is a WordPress a Plugin to check the accessibility of your created pages.
 
 Download Zip of this repository and install it as a plugin in your WordPress installation.
 
-## [Usage](#usage)
-
-
-
-## [License](#license)
