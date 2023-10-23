@@ -1,4 +1,4 @@
-# A11Y-Checker-Plugin 
+# A11Y-Check-Plugin 
 
 This is a WordPress Plugin to check the accessibility of your created pages. It uses the axe-core library (axe v4.6.3). See the test-results in the Plugin-Dashboard. Step in deeper to see the details of the accibility issues. Get usesful information and hints to fix the issues. Find the Elements on your side to change them for more web-accessibility.
 
