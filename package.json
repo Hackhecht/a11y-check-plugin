@@ -16,7 +16,8 @@
     "@wordpress/element": "^4.20.0",
     "@wordpress/icons": "^9.13.0",
     "@wordpress/plugins": "^4.20.0",
-    "@wordpress/scripts": "^24.6.0"
+    "@wordpress/scripts": "^24.6.0",
+    "axios": "^1.6.2"
   },
   "author": "",
   "license": "ISC",
